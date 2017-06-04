@@ -1,0 +1,28 @@
+{
+  "name": "final project for CS340",
+  "version": "1.0.0",
+  "description": "pokemon catch database",
+  "main": "server.js",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammiranda/CS340.git"
+  },
+  
+  "author": "Lu Zhang",
+  "license": "ISC",
+"hompage":"https://flip3.engr.oregonstate.edu:2280/"
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.13.2",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.11.3",
+    "mysql": "^2.11.9"
+  }
+}
